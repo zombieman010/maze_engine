@@ -1,4 +1,7 @@
 package com.nathanielpautzke.mazeengine.storage;
 
-public interface MetricsStore {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MazeStore extends JpaRepository<Maze, Long> {
+
 }
