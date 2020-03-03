@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/maze
+    username: dev
+    password: pw123
+    jpa:
+      database: POSTGRES
+      show-sql: true
+      generate-ddl: true
+      hibernate.ddl-auto: create-drop
+      properties:
+        hibernate:
+          jdbc:
+            lob:
+              non_contextual_creation: true
