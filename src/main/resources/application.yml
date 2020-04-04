@@ -3,8 +3,8 @@ spring:
   datasource:
     platform: postgres
     url: jdbc:postgresql://localhost:5432/maze
-    username:
-    password:
+    username: dev
+    password: pw123
   jpa:
     database: POSTGRESQL
     database-platform: org.hibernate.dialect.PostgreSQLDialect
